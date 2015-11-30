@@ -1,0 +1,107 @@
+body {
+	/*background-image: url("../images/bg.jpg");*/
+    width: 95%;
+    magin:0 auto;
+}
+
+#header{
+	height:200px;
+}
+
+#header h2{
+	float:left;
+	margin-left:3%;
+}
+
+#header ul{
+	float:right;
+	display: block;
+	list-style: none outside none;
+}
+
+#header ul li{
+	display: inline;
+}
+
+#header p{
+	margin:50px;
+	font-size: 24pt;
+	color:#DEBFBF;
+	font-family:Agency FB;
+}
+
+#container{
+	position:fixed;
+	display:block;
+	margin-left:10%;
+	margin-right:auto;
+}
+
+#container ul{
+	list-style: none outside none;
+}
+
+#container ul li{
+	display: inline;
+}
+
+
+#footer{
+	height:200px;
+}
+#table1 {
+	border:none;
+	border-collapse: collapse;
+	width:100%;
+}
+
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	color: yellow;
+    font-size: 15px;
+    padding: 20px;
+	border-bottom:1px solid #666666;
+}
+table.gridtable td {
+	color: #DEBFBF;
+    font-size: 15px;
+    padding: 10px;
+	border-bottom:1px solid #666666;
+}
+
+.volume {
+    width: 250px;
+}
+.ui-slider-horizontal {
+    background: none repeat scroll 0 0 #1B1B1B !important;
+    border: 1px solid red !important;
+    height: 8px !important;
+}
+.ui-slider-range-min {
+    background: url("../images/metal-slider-fill.png") repeat-x scroll 0 0 transparent !important;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.ui-slider-handle {
+    border: medium none !important;
+    height: 25px !important;
+    outline: medium none;
+    top: -9px !important;
+    width: 11px !important;
+}
+
+.onoff {
+	background-color: #B50002;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    font-size: 15px;
+    padding: 6px 13px;
+    text-decoration: none;
+}
