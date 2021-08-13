@@ -1,0 +1,11 @@
+#### A simple quick POC project to try the native mobile app
+ ---
+- Install xampp on the machine
+- Copy webApp folder to htdocs directory of XAMPP server
+- Open browser & type http://localhost/webapp
+---
+        - javascript
+        - jQuery Mobile
+        - XML
+        - PHP
+ ---
