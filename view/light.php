@@ -21,11 +21,7 @@
 			<div data-role="content" class="full-width" id="content">
 				<div class="latest-post">
 					<div class="post-content">
-						<?php
-$lightingFileName = "http://192.168.1.147:6161/Infomap/XML/Light/Lighting.xml";
-$xml_file = simplexml_load_file($lightingFileName);
-$lightConArr = $xml_file;
-?>
+						
 			<table class='gridtable' id='table12'>
 				<tr>
 					<!-- <th>Zone</th> -->
